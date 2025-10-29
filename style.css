@@ -1,12 +1,12 @@
 body {
     /* Removido background-color: #0d0d0d; */
-    background-image: url('background_halloween.jpg'); /* <<--- NOVA IMAGEM DE FUNDO AQUI */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-attachment: fixed; /* Mantém a imagem fixa ao rolar (se houver rolagem) */
-    background-position: center center; /* Centraliza a imagem */
+    background-image: url('./img/surpresa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center; 
     
-    color: #e0e0e0; /* Texto claro */
-    font-family: 'Special Elite', cursive; /* Fonte com estilo máquina de escrever/vintage */
+    color: #e0e0e0; 
+    font-family: 'Special Elite', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,91 +16,89 @@ body {
 }
 
 .container {
-    background-color: rgba(26, 26, 26, 0.85); /* Fundo do convite semi-transparente para ver o background */
-    border: 5px solid #4a044e; /* Borda roxa escura (Cor da Coraline) */
-    box-shadow: 0 0 25px rgba(74, 4, 78, 0.9), 0 0 15px #70e0f0; /* Sombra dupla Coraline (roxo) e Noiva Cadáver (azul) */
-    padding: 30px;
+    background-color: rgba(26, 26, 26, 0.85);
+    border: 5px solid #4a044e; 
+    box-shadow: 0 0 25px rgba(74, 4, 78, 0.9), 0 0 15px #70e0f0; 
     border-radius: 15px;
-    max-width: 650px; /* Levemente mais largo para acomodar o texto */
+    max-width: 650px; 
     width: 90%;
-    backdrop-filter: blur(3px); /* Efeito de desfoque no que está atrás do container (moderno) */
+    backdrop-filter: blur(3px); 
 }
 
 h1 {
-    font-family: 'Creepster', cursive; /* Fonte de Terror/Halloween */
+    font-family: 'Creepster', cursive;
     color: #f0f0f0;
-    font-size: 2.8em; /* Levemente maior */
+    font-size: 2.8em; 
     border-bottom: 2px dashed #4a044e;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra no título para destaque */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
 }
 
 .message-box {
-    background-color: rgba(43, 43, 43, 0.9); /* Fundo da caixa de mensagem semi-transparente */
-    padding: 25px;
+    background-color: rgba(43, 43, 43, 0.9); 
     border-radius: 10px;
     margin-bottom: 20px;
-    border: 1px solid rgba(74, 4, 78, 0.5); /* Borda sutil */
+    border: 1px solid rgba(74, 4, 78, 0.5); 
 }
 
 p {
-    font-size: 1.15em; /* Levemente maior */
+    font-size: 1.15em;
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
 .movie-info h2 {
-    color: #70e0f0; /* Cor azul claro da Noiva Cadáver */
+    color: #70e0f0; 
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 2em; /* Levemente maior */
+    font-size: 2em;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
 
 .movies {
     margin: 15px 0;
-    font-size: 1.4em; /* Levemente maior */
+    font-size: 1.4em;
     font-weight: bold;
 }
 
 .coraline-style {
-    color: #ff9900; /* Laranja da Coraline */
+    color: #ff9900;
     text-shadow: 2px 2px 3px #4a044e;
 }
 
 .corpse-style {
-    color: #70e0f0; /* Azul da Noiva Cadáver */
+    color: #70e0f0; 
     text-shadow: 2px 2px 3px #005050;
 }
 
 #acceptBtn {
-    background-color: #4a044e; /* Roxo Coraline */
+    background-color: #4a044e;
     color: #fff;
-    border: 2px solid #70e0f0; /* Borda Azul Noiva Cadáver */
-    padding: 14px 30px; /* Maior */
-    font-size: 1.3em; /* Maior */
+    border: 2px solid #70e0f0; 
+    padding: 14px 30px;
+    font-size: 1.3em; 
     cursor: pointer;
-    border-radius: 8px; /* Mais arredondado */
+    border-radius: 8px; 
     margin-top: 25px;
     transition: background-color 0.3s, transform 0.1s, border-color 0.3s;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4); /* Sombra no botão */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
 }
 
 #acceptBtn:hover {
-    background-color: #70e0f0; /* Inverte as cores no hover */
+    background-color: #70e0f0; 
     color: #4a044e;
     border-color: #4a044e;
-    transform: scale(1.08); /* Mais destaque no hover */
+    transform: scale(1.08); 
     box-shadow: 0 6px 12px rgba(0,0,0,0.6);
 }
 
 #responseMessage {
     margin-top: 25px;
-    font-size: 1.6em; /* Levemente maior */
-    color: #f0f0f0; /* Cor do texto de resposta */
+    font-size: 1.6em; 
+    color: #f0f0f0; 
     font-weight: bold;
-    height: 1.8em; /* Garante que o layout não mude drasticamente */
+    height: 1.8em; 
     text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
